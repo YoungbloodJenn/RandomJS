@@ -2,6 +2,13 @@
 // if counter is = 1 - log ignition
 // if counter is = 0 - stop loop and blast off! 
 
+// define the function
+function blastOff(){}
+
+// call the function & save to a variable
+
+// log variable to console
+
 var counter = 5;
 while (counter > 0){
     console.log(counter);
