@@ -1,0 +1,5 @@
+var user = prompt("Enter your name");
+var partner = prompt("Enter your partner's name")
+var n = Math.random();
+n = Math.ceil(n * 100);
+console.log("You are " + n + " % compatible!");
