@@ -3,18 +3,25 @@
 // if counter is = 0 - stop loop and blast off! 
 
 // define the function
-function blastOff(){}
+// function blastOff(){}
 
 // call the function & save to a variable
 
 // log variable to console
 
-var counter = 5;
-while (counter > 0){
-    console.log(counter);
-    if (counter == 1) {
-        console.log('Ignition!');
+var counter = 4;
+
+while (counter > 0) {
+    if (counter >= 4){
+        alert('4');
+         } else if (counter >= 3){
+            alert('3');
+             } else if (counter >= 2){
+                alert('2');
+                } else if (counter === 1){
+                    alert('Ignition');
+                } else {
+                    }
+                counter -= 1;
     }
-        counter = counter - 1
-    }
-console.log ("blast off!");
+alert('Blast Off!');
